@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+    android:id="@+id/connexion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="110dp"
+    android:layout_marginRight="110dp"
+    android:layout_marginBottom="435dp"
+    android:text="@string/connexion"
+    android:textSize="30sp"
+    android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="315dp"
+        android:width="420dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        android:autofillHints=""
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+    android:id="@+id/password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginBottom="257dp"
+    android:width="420dp"
+    android:ems="10"
+    android:hint="@string/password"
+    android:inputType="textPassword"
+    android:autofillHints=""
+    tools:ignore="RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/textViewIdontCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="185dp"
+        android:text="Je n'ai pas de compte"
+        android:textSize="18sp" />
+
+    <TextView
+    android:id="@+id/textviewPasswordForget"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="100dp"
+    android:layout_marginRight="100dp"
+    android:layout_marginBottom="134dp"
+    android:text="j'ai oublié mon mot de passe"
+    android:textSize="18sp" />
+
+    <Button
+    android:id="@+id/buttonConnexion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginEnd="149dp"
+    android:layout_marginRight="149dp"
+    android:layout_marginBottom="55dp"
+    android:text="Connexion" />
+</RelativeLayout>
